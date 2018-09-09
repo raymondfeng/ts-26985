@@ -1,0 +1,13 @@
+{
+  "name": "ts26985",
+  "version": "1.0.0",
+  "devDependencies": {
+    "lerna": "^3.3.0",
+    "typescript": "^3.0.1"
+  },
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "build": "lerna run build",
+    "build:top": "tsc -p packages/pkg1 && tsc -p packages/pkg2 && tsc -p packages/pkg3"
+  }
+}

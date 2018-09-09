@@ -1,0 +1,19 @@
+{
+  "name": "@raymondfeng/pkg2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@raymondfeng/pkg1": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.0.1"
+  }
+}
